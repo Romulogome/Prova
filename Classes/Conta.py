@@ -17,4 +17,5 @@ class Conta:
     def getValorPagar(self): 
         return self.__valor_pagar
     def getDadosConta(self):
-        pass
+        print(f"{self.__n_conta}".center(20),f"{self.getDataLeitura()}".center(20),f"{self.__nleitura}".center(20),f"R$ {self.getValorPagar()}".center(20),f"{self.getKwGasto()}".center(20))
+        return('-' * 100)
